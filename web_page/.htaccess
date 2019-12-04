@@ -1,0 +1,3 @@
+RewriteBase /
+AddDefaultCharset UTF-8
+ErrorDocument 404 https://localhost/php/web_page/404.php

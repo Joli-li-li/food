@@ -1,0 +1,425 @@
+/*         STYLE PAGE - HOME - et structure tout le site -        */
+
+
+
+body{
+
+}
+
+
+
+#wrapper{
+    width: 							411px;
+    margin: 						auto;
+}
+
+
+
+header{
+	background: 					url('./images/separateur.png') repeat-x bottom;
+}
+
+#titre_principal{
+	display: 						flex;
+	flex-direction: 				column;
+}
+
+#logo{
+	display: 						flex;
+	flex-direction: 				row;
+	align-items: 					baseline;
+}
+
+header h1{
+	font-family: 					'Dancing Script', cursive;
+	font-size: 						2em;
+	font-weight: 					normal;
+	margin: 						0 0 0 50px;
+}
+
+header h2{
+	font-family:  					'Amatic SC', cursive;
+	font-size: 						1.5em;
+	font-weight: 					normal;
+	margin: 						0 0 0 50px;
+}
+
+
+
+/*nav ul{
+	list-style-type: 				none;
+	display: 						flex;
+	margin: 						15px 0 0 -20px;
+	padding: 						10px;
+	margin-left: 					10px;
+
+}
+
+nav li{
+	margin-right: 					15px;
+	
+}*/
+
+nav a:hover{
+	color: 							#760001;
+	border-bottom: 					3px solid #23af38;
+}
+nav.left > a::before {
+	transform: scale(1.2, 1.3) perspective(.5em) rotateX(5deg);
+	transform-origin: bottom left;
+}
+
+
+
+
+
+
+
+.slider{
+	width:							750px;
+	height:							410px;
+	overflow:						hidden;
+	position:						relative;
+	margin:							15px auto 30px;
+}
+
+.slide1, .slide2, .slide3, .slide4{
+	width:							750px;
+	height:							410px;
+	left:							0px;
+	position:						absolute;
+	background-size:				100% 100%;
+}
+
+
+
+
+
+main{
+	display: 						flex;
+	margin-bottom: 					20px;
+}
+
+#content{
+	text-align: 					justify;
+	margin-right: 					20px;
+	
+}
+
+#content h1{
+	font-size: 						1.2em;
+}
+
+#content p{
+	font-size: 						0.9em;
+}
+
+#content img{
+	width: 							100%;
+	height: 						auto;
+}
+
+
+
+
+
+
+aside{
+	flex: 							1.2;
+	position: 						relative;
+	background-color: 				#fbff8e;
+	padding: 						10px;
+    color: 							black;
+    font-size: 						0.9em;
+    text-align: 					center;
+    margin-top: 					15px;
+}
+
+aside h1{
+	font-size: 						1.2em;
+}
+
+aside p:last-of-type{
+	text-align: 					justify;
+}
+
+.follow{
+	font-size: 						1em;
+	font-weight: 					bold;
+}
+
+
+
+
+
+
+footer{
+	background: 					url('./images/separateur.png') repeat-x bottom;
+	display: 						flex;
+	flex-direction: 				row-reverse;
+	justify-content: 				space-between;
+}
+
+
+#icon_food{
+	padding: 						10px;
+	margin-bottom: 					15px;
+}
+
+#bon_appétit{
+	font-family: 					'Dancing Script', cursive;
+	text-align: 					center;
+	font-size: 						0.7em;
+	font-weight: 					normal;
+	flex: 							2;
+	padding: 						20px;
+}
+
+#logo_bas{
+	padding: 						10px;
+	margin: 						15px;
+}
+
+
+
+
+
+
+
+
+
+/*           Responsive design HOME  800px            */
+
+
+@media screen and (min-width: 800px){
+
+	#wrapper{
+	    width: 						800px;
+	}
+
+
+	header{
+	
+		display: 					flex;
+		justify-content: 			space-between;
+		align-items: 				flex-end;
+	}
+
+	header h1{
+		font-size: 					3em;
+		margin: 					0 0 0 10px;
+	}
+
+	header h2{
+		margin: 					0 0 0 10px;
+	}
+
+	#content{
+		flex: 						3;
+	}
+
+	#content h1{
+		font-size: 					1.5em;
+	}
+
+	#content p{
+		font-size: 					1em;
+	}
+
+	
+
+	aside h1{
+		font-size: 					1.5em;
+	}
+
+	aside p{
+		font-size: 					1.2em;
+	}
+
+
+	.follow{
+		font-size: 					1.5em;
+		font-weight: 				bold;
+	}
+
+
+
+
+
+
+
+	#bon_appétit{
+		font-size: 					1em;
+		font-weight:				normal;
+		padding:  					20px;
+	}
+
+	#logo_bas{
+		margin: 					30px;
+	}
+
+
+	#icon_food{
+	display: 						flex;
+	padding: 						20px;
+	}
+
+}
+
+	
+	
+
+
+
+
+/*           Responsive design HOME  1366px            */
+
+
+@media screen and (min-width: 1366px){
+
+	#wrapper{
+	    width: 						1366px;
+	}
+
+
+
+
+	header h1{
+		font-size: 					4em;
+		margin: 					0 0 0 140px;
+
+	}
+
+	header h2{
+		font-size: 					2.5em;
+		margin: 					0 0 0 120px;
+	}
+
+	#content{
+		flex: 						3;
+	}
+
+	#content h1{
+		font-size: 					2em;
+	}
+
+	#content p{
+		font-size: 					1.5em;
+	}
+
+	
+
+
+
+
+
+
+	aside h1{
+		font-size: 					2em;
+	}
+
+	aside p{
+		font-size: 					1.5em;
+	}
+
+
+	.follow{
+		font-size: 					1.5em;
+		font-weight: 				bold;
+	}
+
+
+
+
+
+	footer{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#bon_appétit{
+		font-size: 					1.5em;
+		font-weight:				normal;
+		padding:  					20px;
+	}
+
+	#logo_bas{
+		margin: 					30px;
+	}
+
+
+	#icon_food{
+		 padding: 					30px;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

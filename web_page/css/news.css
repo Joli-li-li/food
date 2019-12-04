@@ -1,0 +1,125 @@
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.block1, .block2, .block3{
+    background-image: url(../images/news_fon.jpg);
+    margin: 1px;
+	padding: 15px;
+	width: 500px;
+}
+
+.blocks2 {
+	background-color: #DDFCFD;
+    height: 150px;
+    margin: 15px 0;
+    padding: 0;
+	
+}
+
+.newsTitle {
+    color: #000000;
+    font-size: 18px;
+}
+
+.newsImg {
+    width: 100%;
+    height: auto;
+}
+
+.newsArticle {
+    color: #000000;
+    line-height: 1.1;
+}
+
+.more{
+  display: inline-block;
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .25em .5em;
+  outline: none;
+  border: 1px solid rgb(206, 204, 200);
+  border-radius: 7px;
+  background: rgba(247, 247, 247, 0.1) linear-gradient(rgb(249, 248, 247), rgb(232, 224, 214));
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+} 
+.more:hover {
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(252, 244, 222, 0.5);
+}
+.more:active {
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+
+}
+.weather {
+    color: #000000;
+    text-align: center;
+}
+
+#weather {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #000000;
+    font-size: 15pt;
+}
+#weather div{
+    height: 40%;
+    width: 20%;
+    text-align: center;
+    padding-top: 1%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-shadow: 1px 1px  blue;
+}
+#weather .weatherDiv{
+    padding-top: 0.5%;
+}
+#currency {
+    display: none;
+}
+
+.currency {
+    display: none;
+}
+
+.currency div {
+    display: none;
+}
+
+.currency .head--curr {
+    display: block;
+    text-align: center;
+}
+
+.country-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.country{
+    color: #28A745;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #FFE400;
+    border-radius: 5px;
+    padding: 2px 3px;
+    text-align: center; 
+}
+.country:hover{
+    color: #FF652F;
+}

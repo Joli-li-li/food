@@ -1,0 +1,251 @@
+/*         STYLE PAGE - RECETTES          */
+#repeat{
+	margin-top: 							15px;
+}
+
+.recette1_main h1{
+	font-family: 							'Dancing Script', cursive;
+	font-size: 								2em;
+	text-align: 							center;
+}
+
+#recette1_aside h1  {
+	font-size: 								1.5em;
+	text-align:							 	center;
+}
+
+#recette1_aside ul li{
+	text-align: 							left;
+	margin-left: 							-20px;
+}
+
+#recette1_aside ol li{
+	text-align: 							left;
+	margin-left: 							-20px;
+}
+
+
+
+
+
+/*           Responsive design RECETTES  800px            */
+
+@media screen and (min-width: 800px){
+	#content p{
+		font-size: 							1.5em;
+	}
+
+
+	#recette1_main h1{
+		font-size: 							3em;
+	}
+
+	#recette1_aside h1 {
+		font-size: 							2em;
+	}
+
+	#recette1_aside h2 {
+		font-size: 							1.8em;
+	}
+
+	#recette1_aside p {
+		font-size: 							1.5em;
+	}
+
+	#recette1_aside ul li{
+		font-size: 							1.5em;
+	}
+
+	#recette1_aside ol li{
+		font-size: 							1.5em;
+	}
+
+
+}
+
+
+
+
+
+/*           Responsive design RECETTES  1366px            */
+
+@media screen and (min-width: 1366px){
+
+	#content p{
+		font-size: 							2em;
+	}
+
+	#repeat{
+		display: 							none;
+	}
+
+	#recette1_main h1{
+		font-size: 							4em;
+	}
+
+	#cauliflower_photos{
+		display: 							flex;
+		width: 								315px;
+		height: 							490px;
+	}
+
+	#recette1_aside h1 {
+		font-size: 							3em;
+	}
+
+	#recette1_aside h2 {
+		font-size: 							2.2em;
+	}
+
+	#recette1_aside p {
+		font-size: 							2em;
+		margin-left: 						70px;
+	}
+
+	#recette1_aside ul li{
+		font-size: 							2em;
+	}
+
+	#recette1_aside ol li{
+		font-size: 							2em;
+		margin-left:						10px;
+	}
+
+
+}
+
+
+
+
+
+
+
+/*         STYLE PAGE - Snacks         */
+
+#snacks_repeat{
+	padding: 								15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*         STYLE PAGE - Drink         */
+
+.lettres{
+	text-align: 							justify;
+}
+
+/*           Responsive design DRINK  1366px            */
+
+@media screen and (min-width: 1366px){
+
+	#infused_water{
+		display: 							flex;
+		width: 								315px;
+		height: 							490px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         STYLE PAGE - Contact         */
+
+#contact_personnel h1{
+	font-weight: 							normal;
+	text-align: 							center;
+	text-decoration: 						underline;
+	font-weight: 							bolder;
+}
+
+#contact_personnel img{
+	width: 									30px;
+	margin-left: 							100px;
+	padding: 								20px;
+
+
+}
+
+#contact_personnel p{
+	margin: 								0;
+	text-align: 							center;
+}
+
+/*           Responsive design CONTACT  800px            */
+
+@media screen and (min-width: 800px){
+	#contact_personnel h1{
+		padding: 							10px;
+		font-weight: 						bold;
+	}
+
+	#contact_personnel img{
+	margin-left: 							250px;
+	padding: 								40px;
+	}
+}
+
+/*           Responsive design CONTACT  1366px            */
+
+@media screen and (min-width: 1366px){
+	#contact_personnel h1{
+		padding: 							20px;
+		font-weight: 						bold;
+	}
+
+	#contact_personnel img{
+	margin:									0;
+	padding: 								40px;
+	}
+
+	#contact_personnel p{
+	text-align: 							left;
+
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
