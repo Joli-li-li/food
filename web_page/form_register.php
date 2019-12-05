@@ -1,5 +1,4 @@
 <?php
-    //Подключение шапки
     require_once("header.php");
 ?>
 <div id="link_back">
